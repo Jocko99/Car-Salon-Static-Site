@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://autokucajockovic.c1.biz/index.html</loc>
+
+      <lastmod>2019-12-06</lastmod>
+
+      <changefreq>daily</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+      <url>
+
+    <loc>http://autokucajockovic.c1.biz/vozila.html</loc>
+
+    <lastmod>2019-12-06</lastmod>
+
+    <changefreq>daily</changefreq>
+
+    <priority>1</priority>
+
+   </url>
+      <url>
+
+    <loc>http://autokucajockovic.c1.biz/registracija.html</loc>
+
+    <lastmod>2019-12-06</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+    <priority>0.8</priority>
+
+   </url>
+    <url>
+
+    <loc>http://autokucajockovic.c1.biz/servis.html</loc>
+
+    <lastmod>2019-12-06</lastmod>
+
+    <changefreq>weekly</changefreq>
+
+    <priority>0.8</priority>
+
+   </url>
+        <url>
+
+    <loc>http://autokucajockovic.c1.biz/kontakt.html</loc>
+
+    <lastmod>2019-12-06</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.3</priority>
+
+   </url>
+         <url>
+
+    <loc>http://autokucajockovic.c1.biz/autor.html</loc>
+
+    <lastmod>2019-12-06</lastmod>
+
+    <changefreq>yearly</changefreq>
+
+    <priority>0.2</priority>
+
+   </url>
+    
+</urlset> 

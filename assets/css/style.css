@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	color:#fff;
+}
+#top-header {
+	background-color: #272930;
+	color: #fff;
+	padding-top:10px;
+}
+
+#top-header ul.contact_links li {
+	float: left;
+	display: inline-block;
+	margin-right: 20px;
+}
+#top-header ul.contact_links i {
+	margin-right: 10px;
+	color: #fff;
+}
+#top-header ul.contact_links a {
+	color: #fff;
+}
+#top-header ul.contact_links a:hover {
+	color: #159eee;
+}
+#top-header ul.social_links {
+	float: right;
+}
+#top-header ul.social_links li {
+	float: left;
+	display: inline-block;
+	margin-right: 5px;
+}
+#top-header ul.social_links i {
+	margin-right: 5px;
+	color: #fff;
+	font-size: 20px;
+}
+#top-header ul.social_links a{
+	color:#fff;
+}
+#navigacija{
+	width:100%;
+}
+.oboj,#sakrij a,#meni a{
+	color:#272930;
+}
+#sakrij li a:hover,#meni ul li a:hover{
+	font-weight: bold;
+}
+
+#sakrij{
+	display:none;
+}
+
+#slajder{
+	width:100%;
+	height:800px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#wrapper{
+	width:100%;
+}
+#baner{
+	
+	background-color:#272930;
+}
+.boja{
+	color:#34363e;
+	text-align: center;
+	font-size:100px;
+}
+.baneri{
+	text-align: center;
+	/* border:1px solid #34363e;
+	border-radius:30px;	 */
+	padding: 10px;
+	margin-top:20px;
+}
+.linija{
+	border-bottom: 2px solid #34363e;
+	
+}
+
+#bckSlika{
+		background-image:url('../images/bmwWraper.jpg');
+		background-size:cover;
+		height:300px;
+		background-attachment: fixed;
+}
+.iBela{
+	font-size:100px;
+}
+.num{
+	font-size:30px;
+}
+#pomeri{
+	float:right;
+}
+#footer{
+	background-color: #272930;
+	color:#fff;
+}
+#scrollToTop
+{
+	font-size:40px;
+	color:#000;
+	padding:20px;
+	position:fixed;
+	right:0px;
+	bottom:0px;
+}
+#reg,#serv{
+	width:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#listaTehnickog ul{
+	list-style-type: disc;
+}
+#formular input[type=text]{
+	width:50%;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+	border:none;
+	border-bottom:1px solid #272930;
+}
+#formular textarea{
+	margin-top:30px;
+	width:50%;
+}
+#formular input[type=button]{
+	width:20%;
+}
+.pomeri{
+	display:flex;
+	align-items:start;
+}
+.error{
+	border-bottom:1px solid #ff0000 !important;
+}
+.correct{
+	border-bottom:1px solid #00ff00 !important;
+}
+.automobili{
+	width:100% !important;
+	float:left;
+}
+.siva{
+	background-color:#e3e3e3;
+}
+.ponuda{
+	float: right;
+}
+#lokacijaSlika{
+	background: url("../images/lokacija.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height:600px;
+}
+#lokacijaBaner{
+	padding-top:200px;
+	margin:0px auto;
+	text-align: center;
+}
+.lokUredi{
+	margin:0px auto;
+	padding: 10px;
+	border: 1px solid #272930;
+	border-radius:2px;
+	background-color: rgba(255,255,255,0.5)
+}
+#loc{
+	padding:0px !important;
+}
+.snizeno{
+	text-decoration:line-through;
+}
+#viseAuta {
+	width:30%;
+	background-color:#34363e;
+	text-align: center;
+	padding: 10px;
+}
+#viseAuta a:hover{
+	text-decoration: none !important;
+}
+.prikaziVise{
+	display:none;
+}
+#autor{
+	border: 3px solid #34363e;
+	width:406px;
+}
+#tekst{
+	width:406px;
+	text-align: center;
+}
+.uredi{
+	margin:0px auto;
+}
+#bordura{
+	border: 3px solid #34363e;
+}
+#podebljaj{
+	font-weight: bold;
+}
+@media screen and (max-width:1024px){
+	#slajder{
+		width:100%;
+		height:600px;
+	}
+}
+@media screen and (max-width: 991px){
+	#senka{
+		display:flex;
+		justify-content: center;
+	}
+	#oNama{
+		text-align: center;
+		margin: 0px auto;
+	}
+		.siva h2{
+			font-size:20px;
+		}
+		.siva p{
+			font-size:10px;
+		}
+}
+@media screen and (max-width: 844px){
+	.autoPrijatelji{
+		display:flex;
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 770px){
+	.social_links,.contact_links{
+		display:flex;
+		flex-direction: column; 
+		align-items: center;
+	}
+	.top-header-links{
+		display:flex;
+		align-items: center;
+	}
+	.contact_links .promena{
+		margin:0px auto;
+	}
+	#slajder{
+		width:100%;
+		height: 400px;
+	}
+	.automobili{
+		height:100%;
+	}
+}
+@media screen and (max-width: 767px){
+	#bckSlika{
+		height:600px;
+	}
+	#lokacijaBaner{
+		padding-top:80px;
+		margin:0px auto;
+		text-align: center;
+	}
+}
+@media screen and (max-width:500px){
+	#slajder{
+		width:100%;
+		height:300px;
+	}
+}
+@media screen and (max-width:470px){
+	.siva h2{
+		font-size:15px;
+	}
+	.siva p{
+		font-size:7px;
+	}
+}
